@@ -7,11 +7,6 @@ public class Dollar extends Money{
         super(amount, currency);
     }
 
-    public Money times(int multiplier){
-         //amount = amount *multiplier;
-         return Money.dollar( amount *multiplier);
-    }
-
     /*public boolean equals(Object object){
         Money dollar = (Money) object;
         return amount == dollar.amount;
